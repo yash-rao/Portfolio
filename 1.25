@@ -1,0 +1,66 @@
+Requirement already satisfied: djlint in f:\python\lib\site-packages (0.7.6)
+Collecting djlint
+  Downloading djlint-1.34.0-py3-none-any.whl (48 kB)
+Collecting tomli<3.0.0,>=2.0.1
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting html-tag-names<0.2.0,>=0.1.2
+  Downloading html_tag_names-0.1.2-py3-none-any.whl (15 kB)
+Collecting jsbeautifier<2.0.0,>=1.14.4
+  Downloading jsbeautifier-1.14.9.tar.gz (75 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Requirement already satisfied: PyYAML<7.0,>=6.0 in f:\python\lib\site-packages (from djlint) (6.0)
+Collecting pathspec<0.12.0,>=0.11.0
+  Downloading pathspec-0.11.2-py3-none-any.whl (29 kB)
+Requirement already satisfied: colorama<0.5.0,>=0.4.4 in f:\python\lib\site-packages (from djlint) (0.4.4)
+Collecting json5<0.10.0,>=0.9.11
+  Downloading json5-0.9.14-py2.py3-none-any.whl (19 kB)
+Collecting html-void-elements<0.2.0,>=0.1.0
+  Downloading html_void_elements-0.1.0-py3-none-any.whl (14 kB)
+Requirement already satisfied: tqdm<5.0.0,>=4.62.2 in f:\python\lib\site-packages (from djlint) (4.64.0)
+Collecting regex<2024.0.0,>=2023.0.0
+  Downloading regex-2023.10.3-cp310-cp310-win_amd64.whl (269 kB)
+Collecting cssbeautifier<2.0.0,>=1.14.4
+  Downloading cssbeautifier-1.14.9.tar.gz (25 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Requirement already satisfied: click<9.0.0,>=8.0.1 in f:\python\lib\site-packages (from djlint) (8.0.4)
+Requirement already satisfied: six>=1.13.0 in f:\python\lib\site-packages (from cssbeautifier<2.0.0,>=1.14.4->djlint) (1.15.0)
+Collecting editorconfig>=0.12.2
+  Downloading EditorConfig-0.12.3-py3-none-any.whl (16 kB)
+Building wheels for collected packages: cssbeautifier, jsbeautifier
+  Building wheel for cssbeautifier (PEP 517): started
+  Building wheel for cssbeautifier (PEP 517): finished with status 'done'
+  Created wheel for cssbeautifier: filename=cssbeautifier-1.14.9-py3-none-any.whl size=30290 sha256=0d43871eceba706a0cdf6b4faa094fffb11a0886286e2e980efc71499a223b3d
+  Stored in directory: c:\users\lenovo\appdata\local\pip\cache\wheels\47\8b\fd\32361381de871d058cc2d3e794717c1017c3d7a40a3e3b1867
+  Building wheel for jsbeautifier (PEP 517): started
+  Building wheel for jsbeautifier (PEP 517): finished with status 'done'
+  Created wheel for jsbeautifier: filename=jsbeautifier-1.14.9-py3-none-any.whl size=94122 sha256=26e3c9400857db967bb6f6c8a997ea5faf2612b66b5a36a97027e1ee2fe33118
+  Stored in directory: c:\users\lenovo\appdata\local\pip\cache\wheels\c4\5c\25\09f8b2e8dddb4fc3d70817c67b375a9069a2628847ffbdfc65
+Successfully built cssbeautifier jsbeautifier
+Installing collected packages: editorconfig, jsbeautifier, tomli, regex, pathspec, json5, html-void-elements, html-tag-names, cssbeautifier, djlint
+  Attempting uninstall: tomli
+    Found existing installation: tomli 1.2.2
+    Uninstalling tomli-1.2.2:
+      Successfully uninstalled tomli-1.2.2
+  Attempting uninstall: regex
+    Found existing installation: regex 2022.3.15
+    Uninstalling regex-2022.3.15:
+      Successfully uninstalled regex-2022.3.15
+  Attempting uninstall: pathspec
+    Found existing installation: pathspec 0.9.0
+    Uninstalling pathspec-0.9.0:
+      Successfully uninstalled pathspec-0.9.0
+  Attempting uninstall: djlint
+    Found existing installation: djlint 0.7.6
+    Uninstalling djlint-0.7.6:
+      Successfully uninstalled djlint-0.7.6
+Successfully installed cssbeautifier-1.14.9 djlint-1.34.0 editorconfig-0.12.3 html-tag-names-0.1.2 html-void-elements-0.1.0 jsbeautifier-1.14.9 json5-0.9.14 pathspec-0.11.2 regex-2023.10.3 tomli-2.0.1
